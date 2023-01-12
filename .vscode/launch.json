@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Website Assignment\\NewVSfolder\\Hello_World.js"
+            "program": "${workspaceFolder}\\Website Assignment\\NewVSfolder\\Hello-world.js"
         }
     ]
 }
