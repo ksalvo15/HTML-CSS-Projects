@@ -19,7 +19,7 @@ h1 {
 /*select all squares in the array*/
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/GitHub/HTML-CSS-Projects/images/iconssmile.png");
+    background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/GitHub/HTML-CSS-Projects/Website Assignment/images/iconssmile.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -63,7 +63,7 @@ h1 {
 /* hover translate and transform effects*/
 
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/GitHub/HTML-CSS-Projects/images/icons2smile.png");
+    background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/GitHub/HTML-CSS-Projects/Website Assignment/images/icons2smile.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -92,7 +92,7 @@ h1 {
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/GitHub/HTML-CSS-Projects/images/icons2smile.png");
+        background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/GitHub/HTML-CSS-Projects/Website Assignment/images/icons2smile.png");
     }
     50% {
         transform: translateY(300px);
