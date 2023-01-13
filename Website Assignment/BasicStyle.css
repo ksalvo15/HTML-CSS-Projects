@@ -28,7 +28,7 @@ h1 {
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
-    transition: transform .5s ease-in-out;
+    
 }
 
 .squares:nth-child(-n+4) p{
@@ -60,7 +60,7 @@ h1 {
 
 /* hover translate and transform effects*/
 
-.container .squares:nth-child(-n+4) :hover {
+/* .container .squares:nth-child(-n+4) :hover {
     background-image: ("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/icons2smile.png");
     transform: scale(.5);
     animation-name: race;
@@ -87,7 +87,7 @@ h1 {
 
 /* animation effects */
 
-@keyframes race {
+/* @keyframes race {
     0%, 100% {
         transform: translateY(0px);
         background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/icons2smile.png");
@@ -96,3 +96,6 @@ h1 {
         transform: translateY(300px);
     }
 }
+
+/* to add to container .squares:nth-child(-n+4
+transition: transform .5s ease-in-out;
