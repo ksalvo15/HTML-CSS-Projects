@@ -8,7 +8,7 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.6);
 }
 
-container {
+.container {
     width: 450px;
     height: 450px;
     background-color: #faebd7;
@@ -19,7 +19,7 @@ container {
 /*select all squares in the array*/
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("");
+    background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/icons2smile.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -28,4 +28,53 @@ container {
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
+}
+
+.squares::nth-child(-n+4) p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* individually select squares in the array*/
+
+.squares::nth-child(1) {
+    background: #4240ff;
+}
+
+.squares::nth-child(2) {
+    background: #c27f28;
+}
+
+.squares::nth-child(3) {
+    background: #40e9ff;
+}
+
+.squares::nth-child(4) {
+    background: #1b5e0b;
+}
+
+/* hover translate and transform effects*/
+
+.container .squares::nth-child(-n+4) :hover {
+    background-image: ("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/iconssmile.png");
+}
+
+.squares::nth-child(1) :hover {
+    background: #abaaf3;
+}
+
+.squares::nth-child(2) :hover {
+    background: #a3a51b;
+}
+
+.squares::nth-child(3) :hover {
+    background: #063e46;
+}
+
+.squares::nth-child(4) :hover {
+    background: #21d365;
 }
