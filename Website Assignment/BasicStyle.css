@@ -44,7 +44,7 @@ h1 {
 /* individually select squares in the array*/
 
 .squares:nth-child(1) {
-    background: #4240ff;
+    background: #940ba1;
 }
 
 .squares:nth-child(2) {
@@ -53,11 +53,10 @@ h1 {
 
 .squares:nth-child(3) {
     background: #40e9ff;
-    background: #1b5e0b;
 }
 
 .squares:nth-child(4) {
-    background: #1b5e0b;
+    background: #237e0d;
 }
 
 /* hover translate and transform effects*/
