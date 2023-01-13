@@ -19,6 +19,14 @@ h1 {
 /*select all squares in the array*/
 
 .container .squares:nth-child(-n+4) {
+    background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/iconssmile.png");
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
 
-    
 }
