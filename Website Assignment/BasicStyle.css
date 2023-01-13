@@ -62,7 +62,7 @@ h1 {
 
 /* hover translate and transform effects*/
 
-.container .squares:nth-child(-n+4) :hover{
+.container .squares:nth-child(-n+4):hover{
     background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/icons2smile.png");
     /*transform: scale(.5);
     animation-name: race;
@@ -71,19 +71,19 @@ h1 {
     animation-timing-function: cubic-bezier(2.5, .2, .3, 2);*/
 }
 
-.squares:nth-child(1) :hover {
+.squares:nth-child(1):hover {
     background: #abaaf3;
 }
 
-.squares:nth-child(2) :hover {
+.squares:nth-child(2):hover {
     background: #a3a51b;
 }
 
-.squares:nth-child(3) :hover {
+.squares:nth-child(3):hover {
     background: #063e46;
 }
 
-.squares:nth-child(4) :hover {
+.squares:nth-child(4):hover {
     background: #21d365;
 }
 
