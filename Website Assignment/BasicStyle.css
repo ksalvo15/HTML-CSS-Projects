@@ -29,8 +29,9 @@ h1 {
     border-radius: 25%;
     cursor: pointer;
     transition: transform .5s ease-in-out;
-    
 }
+
+/*select all squares in array*/
 
 .squares:nth-child(-n+4) p{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -62,12 +63,12 @@ h1 {
 /* hover translate and transform effects*/
 
 .container .squares:nth-child(-n+4) :hover {
-    background-image: ("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/icons2smile.png");
-    transform: scale(.5);
+    background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/icons2smile.png");
+    /*transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);*/
 }
 
 .squares:nth-child(1) :hover {
