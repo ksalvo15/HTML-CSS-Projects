@@ -18,7 +18,7 @@ h1 {
 
 /*select all squares in the array*/
 
-.container .squares:nth-child(-n+4) {
+.container .squares:nth-child(-n+5) {
     background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/iconssmile.png");
     color: #fff;
     float: left;
@@ -28,6 +28,7 @@ h1 {
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
+    /*transition: transform .5s ease-in-out;*/
     
 }
 
@@ -97,5 +98,3 @@ h1 {
     }
 }
 
-/* to add to container .squares:nth-child(-n+4
-transition: transform .5s ease-in-out;
