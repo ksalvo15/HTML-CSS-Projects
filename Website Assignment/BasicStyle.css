@@ -61,6 +61,11 @@ h1 {
 
 .container .squares::nth-child(-n+4) :hover {
     background-image: ("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/iconssmile.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
 .squares::nth-child(1) :hover {
@@ -77,4 +82,16 @@ h1 {
 
 .squares::nth-child(4) :hover {
     background: #21d365;
+}
+
+/* animation effects */
+
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/iconssmile.png");
+    }
+    50% {
+        transform: translateY(300px);
+    }
 }
