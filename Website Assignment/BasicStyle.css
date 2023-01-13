@@ -28,9 +28,10 @@ h1 {
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
+    transition: transform .5s ease-in-out;
 }
 
-.squares::nth-child(-n+4) p{
+.squares:nth-child(-n+4) p{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     font-weight: 900;
@@ -41,25 +42,25 @@ h1 {
 
 /* individually select squares in the array*/
 
-.squares::nth-child(1) {
+.squares:nth-child(1) {
     background: #4240ff;
 }
 
-.squares::nth-child(2) {
+.squares:nth-child(2) {
     background: #c27f28;
 }
 
-.squares::nth-child(3) {
+.squares:nth-child(3) {
     background: #40e9ff;
 }
 
-.squares::nth-child(4) {
+.squares:nth-child(4) {
     background: #1b5e0b;
 }
 
 /* hover translate and transform effects*/
 
-.container .squares::nth-child(-n+4) :hover {
+.container .squares:nth-child(-n+4) :hover {
     background-image: ("C:/Users/kelse/Documents/Tech-Academy-Files/Website/Images/iconssmile.png");
     transform: scale(.5);
     animation-name: race;
@@ -68,19 +69,19 @@ h1 {
     animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
-.squares::nth-child(1) :hover {
+.squares:nth-child(1) :hover {
     background: #abaaf3;
 }
 
-.squares::nth-child(2) :hover {
+.squares:nth-child(2) :hover {
     background: #a3a51b;
 }
 
-.squares::nth-child(3) :hover {
+.squares:nth-child(3) :hover {
     background: #063e46;
 }
 
-.squares::nth-child(4) :hover {
+.squares:nth-child(4) :hover {
     background: #21d365;
 }
 
