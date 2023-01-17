@@ -10,3 +10,13 @@
     height: 100%;
     object-fit: cover;
 }
+
+h1 {
+    line-height: 50px;
+    font-weight: 200;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #c02323;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
