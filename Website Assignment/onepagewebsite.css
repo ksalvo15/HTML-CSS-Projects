@@ -52,11 +52,11 @@ h2 {
     outline: none;
     font-weight: 600;
     color: #8d8e8f;
-    padding: 12px;
-    width: 70%;
+    padding: 10px;
+    width: 60%;
     border: 1px solid #808080;
     margin: 2% auto;
-    border-radius: 7px;
+    border-radius: 6px;
     background-color: rgb(224, 176, 176);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
     font-family: 'Raleway', sans-serif;
@@ -67,14 +67,14 @@ h2 {
     outline: none;
     font-weight: 600;
     color: #a6b1bd;
-    padding: 2% 1% 2% 7%;
+    padding: 2% 1% 2% 2%;
     width: 80%;
     border-top: 1px solid #090b0d;
     border-right: 2px solid #a6b1bd;
     border-bottom: 2px solid #a6b1bd;
     border-left: 1px solid #090b0d;
     margin: 10px 1em;
-    border-radius: 7px;
+    border-radius: 6px;
     background: #15243f;
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, .15);
 }
