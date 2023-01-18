@@ -10,6 +10,13 @@ body {
     line-height: 20px;
 }
 
+.navbar {
+    height: 105px;
+    max-height: 340px;
+    display: inline-block;
+    color: #abb8d1;
+}
+
 h1 {
     font-weight: 500;
     font-size: 50px;
