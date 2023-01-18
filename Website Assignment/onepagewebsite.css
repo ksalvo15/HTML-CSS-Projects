@@ -42,7 +42,7 @@ p {
     border-radius: 6px;
     background-color: rgb(112, 85, 233);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
-    font-family: 'Calibri', sans-serif;
+    font-family: Calibri;
 }
 
 .gallery {
@@ -80,7 +80,7 @@ p {
     border-radius: 6px;
     background-color: rgb(112, 85, 233);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
-    font-family: 'Calibri', sans-serif;
+    font-family: Calibri;
     }
 
 .container input[type='text'] {
