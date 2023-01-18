@@ -1,12 +1,15 @@
 /* font formatting*/
 
 html {
-    font-family: Calibri;
+    font-family: 'Calibri' sans-serif;
     text-align: center;
 }
 
+body {
+    line-height: 20px;
+}
+
 h1 {
-    line-height: 60px;
     font-weight: 500;
     font-size: 50px;
     text-transform: uppercase;
@@ -26,6 +29,21 @@ p {
 }
 
 /*pictures*/
+
+.gallery-container {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #072e55;
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #0a0909;
+    margin: 2% auto;
+    border-radius: 6px;
+    background-color: rgb(112, 85, 233);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
+    font-family: 'Calibri', sans-serif;
+}
 
 .gallery {
     display: grid;
