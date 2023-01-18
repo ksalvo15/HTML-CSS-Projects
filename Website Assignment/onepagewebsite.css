@@ -113,7 +113,7 @@ p {
     padding-right: 20px;
     justify-content: center; /* for centering text inside .photo overlay*/
     align-items: center;
-    background: rgba(145, 50, 50, 0.5);
+    background: rgba(26, 8, 8, 0.5);
  }
 
   /* photo overlay transition*/
@@ -141,9 +141,10 @@ p {
 
 
 .container p {
-    color: #13161b;
+    color: #06317a;
     width: 60%;
     margin: 0 auto;
+    top: 2px;
     text-align: center;
 }
 
