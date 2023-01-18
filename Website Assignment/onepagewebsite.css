@@ -2,6 +2,7 @@
 
 html {
     font-family: Calibri;
+    text-align: center;
 }
 
 h1 {
@@ -9,17 +10,19 @@ h1 {
     font-weight: 500;
     font-size: 50px;
     text-transform: uppercase;
-    text-align: center;
     color: #c02323;
 }
 
 h2 {
     line-height: 30px;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
-    text-align: center;
     color: #c97414;
+}
+p {
+    line-height: 15px;
+    font-size: 15px;
 }
 
 /*pictures*/
@@ -59,7 +62,7 @@ h2 {
     border-radius: 6px;
     background-color: rgb(112, 85, 233);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Calibri', sans-serif;
     }
 
 .container input[type='text'] {
