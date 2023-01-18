@@ -168,25 +168,8 @@ p {
     font-family: Calibri;
     }
 
-.container input[type='text'] {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color: #8c98a5;
-    padding: 2% 1% 1% 2%;
-    width: 90%;
-    border-top: 1px solid #090b0d;
-    border-right: 2px solid #a6b1bd;
-    border-bottom: 2px solid #a6b1bd;
-    border-left: 1px solid #090b0d;
-    margin: 10px 1em;
-    border-radius: 6px;
-    background: #15243f;
-    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, .15);
-}
 
 .container input[type="text"]:hover{
     box-shadow: 0 0 18px rgba(27, 114, 46, 0.8);
 }
-/*contact Styles*/
 
