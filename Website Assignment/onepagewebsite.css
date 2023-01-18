@@ -28,21 +28,34 @@ p {
     font-size: 15px;
 }
 
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix::after, /*:after is now ::after */
+.container::after,
+.navbar::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
 /*pictures*/
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, .5fr);
-    grid-template-rows: repeat(3, 20vw);
-    grid-gap: 25px;
-	
-}
-.gallery__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 
 .flex-container{
     display: -webkit-flex;
