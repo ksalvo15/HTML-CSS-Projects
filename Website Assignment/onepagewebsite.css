@@ -3,18 +3,11 @@
 html {
     font-family: Calibri;
     text-align: center;
-    background-color: #223f5c;
+    background-color: #76b6f7;
 }
 
 body {
     line-height: 20px;
-}
-
-.navbar {
-    height: 105px;
-    max-height: 340px;
-    display: inline-block;
-    color: #abb8d1;
 }
 
 h1 {
