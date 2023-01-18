@@ -39,28 +39,6 @@ h2 {
 
 /*contact form*/
 
-.contact-form h2 {
-    width: 70%;
-    text-align: center;
-    margin: 0px auto;
-    color: #13161b;
-    font-weight: 500;
-    font-size: 1.3em;
-    letter-spacing: 0pt;
-    word-spacing: 0pt;
-}
-
-.contact-form h2 span {
-    width: 700%;
-    text-align: center;
-    margin: 0 auto;
-    color: #13161b;
-    font-weight: 900;
-    font-size: 1.5em;
-    font-variant: small-caps;
-    letter-spacing: .4pt;
-    word-spacing: .3pt;
-}
 
 .container p {
     color: #13161b;
@@ -74,7 +52,7 @@ h2 {
     outline: none;
     font-weight: 600;
     color: #8d8e8f;
-    padding: 12px 12px;
+    padding: 12px;
     width: 70%;
     border: 1px solid #808080;
     margin: 2% auto;
