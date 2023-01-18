@@ -1,7 +1,8 @@
 /* font formatting*/
 
 html {
-    font-family: Calibri;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;;
+    font-size: 70%;
     text-align: center;
     background-color: #76b6f7;
 }
@@ -66,7 +67,7 @@ p {
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
-    margin: 0px ;
+    margin: 0px;
     background-color: rgba(100, 65, 0, alpha0.3);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
