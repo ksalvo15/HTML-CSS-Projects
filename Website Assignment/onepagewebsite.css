@@ -51,13 +51,13 @@ h2 {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #398fe6;
     padding: 10px;
     width: 60%;
-    border: 1px solid #808080;
+    border: 1px solid #0a0909;
     margin: 2% auto;
     border-radius: 6px;
-    background-color: rgb(224, 176, 176);
+    background-color: rgb(112, 85, 233);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
     font-family: 'Raleway', sans-serif;
     }
@@ -66,8 +66,8 @@ h2 {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #a6b1bd;
-    padding: 2% 1% 1% 2%;
+    color: #8c98a5;
+    padding: 2% 1% 1% 7%;
     width: 90%;
     border-top: 1px solid #090b0d;
     border-right: 2px solid #a6b1bd;
