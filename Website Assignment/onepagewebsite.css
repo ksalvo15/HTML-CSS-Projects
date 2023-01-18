@@ -144,7 +144,8 @@ p {
     color: #06317a;
     width: 60%;
     margin: 80px auto;
-    text-align: stong center;
+    font-weight: 20px;
+    text-align: center;
 }
 
 .container form {
