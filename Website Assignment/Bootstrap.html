@@ -11,45 +11,166 @@
     <title>Hello, world!</title>
   </head>
   <body>
+
+    <!--start of nav section-->
     <div class="">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-light" href="#about">About <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="#showtimes">Showtimes</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                <li class="nav-item dropdown active">
+                  <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Movies
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#kong">Kong Skull Island</a>
+                    <a class="dropdown-item" href="#ghost">Ghost in the Shell</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#beauty">Beauty and the Beast</a>
                   </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="#deals">Deals</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
               </form>
             </div>
           </nav>
 
+          <!--end of nav section-->
+
+          <!--start of title section-->
+
+          <div class="jumbotron jumbotron-fluid bg-info text-center">
+            <div class="container">
+              <h1 class="display-4 text-light my-5">MOVIES</h1>
+              <p class="lead text-light text-center">Watch a movie.</p>
+            </div>
+          </div>
+
+          <!--end of title section-->
+
+          <!--start of about section-->
+
+            <!--<div id="about" class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="img-fluid" src="images/pdx.jpg" alt="" width="100%" height="250px">
+                    
+                    </div>
+                    <div class="col-sm">
+                        <h3>header for this seciton</h3>
+                        <p>a sentence about it</p>
+                        <p>another sentence about it</p>
+                        <p>and another sentence about it</p>
+
+                    </div>
+                    <div class="col-sm">
+                        <h3>Now playing</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Kong Skull Island</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Ghost in the shell</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Beauty and the Beast</a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+            </div> -->
+<!--end of about section-->
+
+<!--start of showtimes section-->
+
+
+
+<div id="showtimes" class="card-deck">
+  <div id="kong" class="card">
+    <img src="images/kongskullisland.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is for the movie kong skull island.</p>
+        <span class="badge badge-pill badge-primary">12:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">1:30 p.m.</span>
+        <span class="badge badge-pill badge-primary">3:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">5:30 p.m.</span>
+        <span class="badge badge-pill badge-primary">7:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">9:30 p.m.</span>
+    </div>
+    </div>
+  <div id="ghost" class="card">
+    <img src="images/ghostintheshell.jpg" class="card-img-top" alt="...">
+     <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is for the movie ghost in the shell.</p>
+        <span class="badge badge-pill badge-primary">12:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">1:30 p.m.</span>
+        <span class="badge badge-pill badge-primary">3:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">5:30 p.m.</span>
+        <span class="badge badge-pill badge-primary">7:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">9:30 p.m.</span>
+    </div>
+  </div>
+  <div id="beauty" class="card">
+    <img src="images/beautyandthebeast.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is for the movie beauty and the beast</p>
+        <span class="badge badge-pill badge-primary">12:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">1:30 p.m.</span>
+        <span class="badge badge-pill badge-primary">3:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">5:30 p.m.</span>
+        <span class="badge badge-pill badge-primary">7:00 p.m.</span>
+        <span class="badge badge-pill badge-primary">9:30 p.m.</span>
+    </div>
+  </div>
+</div>
+
+<!--end of showtimes section-->
+
+ <!--start of deals section-->
+            
+            <div id="deals" class="text-center">
+                <form>
+                    <div class="form-group">
+                        <h1 class="text-primary my-5">Sign up for movie rewards</h1>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+          </div>
+
+          <div class="container my-5">
+            <ul class="nav nav-inline">
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">movie rewards</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">movie@gmail.com</a></small>
+                </li>
+                <li class="nav-item">
+                    <small class="nav-link">&copy;2022 movies&reg;</small>
+                </li>
+            </ul>
+        </div>
 
     </div>
+
+    <!--end of deals section-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
