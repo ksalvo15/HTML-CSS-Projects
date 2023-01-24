@@ -65,6 +65,7 @@ video {
     position: fixed;
     right: 0;
     bottom: 0;
+    top: 0;
     min-width: 100%;
     z-index: -1;
 
@@ -79,18 +80,24 @@ video {
 .overlay {
     text-align: center;
     top: 100px;
-    color: white; /* Makes the font color white */
-    width: 100%; /* Ensures the video-text container fills the width of the video */
-    padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
+    color: white; 
+    width: 100%; 
+    padding: 20px; 
     position: relative;
     
 }
 
+@keyframes moveoverlay {
+    from {top: -100vw;} 
+    to {top: 0vw;} 
+}
+
+
 
 /*column*/
 
-* { /* The asterisk is a universal selector that applies this effect to all elements on the page */
-    box-sizing: border-box; /* This creates a box with a border within which we will place most of our text */
+* { 
+    box-sizing: border-box; 
 }
 
 .row::after {
