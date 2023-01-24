@@ -2,9 +2,9 @@
 This is a repository for all my HTML and CSS projects
 
 # Projects
-*Space Station Site
-*Movie Theater Site
-*Final Assignment Site
+* Space Station Site
+* Movie Theater Site
+* Final Assignment Site
 
 # Space Station
 Space station is an example of a home page for a space company with content created from my Tech Academy Course
