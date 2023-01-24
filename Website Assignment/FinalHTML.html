@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Final HTML CSS Assigment</title>
+        <link rel="stylesheet" type="text/css" href="FinalHTML.css">
+    </head>
+
+    <body class="Background">
+
+        <!--Navbar-->
+        
+        <nav class="navbar">
+            <div>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Github">Github</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </nav>
+            <br>
+            <br>      
+        <!--Top menu area-->      
+
+        <section id="Home">
+            <div class="video-container">            
+                <video autoplay muted loop>
+                    <source src="picforfinal/ocean.mp4" type="video/mp4" max-height="400px" width="100%">
+                </video>
+
+                <div class="overlay">
+                    <h1 class="white-text">Kelsey's Portfolio</h1>
+                        <p class="center">
+                            <p>this is text to fill up the main part of the page. this is text to fill up the main part of the page. 
+                                this is text to fill up the main part of the page. this is text to fill up the main part of the page. </p>
+                            <br> this is text with a break in it
+                        </p>
+                </div>
+            </div>                   
+        </section>
+
+
+<!--Main columned section of site-->
+
+        <section id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <h1><a href="https://www.learncodinganywhere.com" target="blank">About</a></h1>
+                        <br>
+                        <br>
+                        <br>
+                            <p>I am a software developer student at the tech academy and this is a webpage! 
+                                It has been fun learning how to do all the cool stylings on the website</p>
+                    </div>
+
+                    <div class="column">
+                        <img src="picforfinal/space.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--github section-->
+
+        <section id="Github">
+            <div class="row">
+                
+                <div class="column">
+                    <img src="picforfinal/sunrise.jpg">
+                </div>
+
+                <div class="column">
+                    <h1><a href="https://github.com/ksalvo15/HTML-CSS-Projects" target="blank">Kelsey's Github</a></h1>
+                    <br>
+                    <br>
+                    <br>
+                        <p class="text-justify">I am a software developer student and this is a webpage!</p>
+                            
+                        <p>It has been fun learning how to do all the cool stylings on the website</p>
+                </div>
+            </div>
+        </section>
+
+<!--contact section-->
+
+        <section id="Contact">
+            <div class="row">
+                <div class="column">
+                    <h1>Contact</h1>
+                        <form class="left" action="" method="POST"> 
+                            <label>Name:</label>
+                                <input type="text" placeholder="Please enter your name here">
+                            <br>
+                            <label>Email:</label>
+                                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                            <br>
+                            <label>Message:</label>
+                                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                            <br>
+                                <input type="submit" value="SUBMIT">                       
+                        </form>
+                </div>
+
+                <div class="column">
+                    <img src="picforfinal/flower.jpg">
+
+                </div>
+            </div>
+        </section>
+
+<!--footer section-->
+
+        <footer>
+            <p>
+                <p class="center">&copy Kelsey's Page, <a href="https://github.com/ksalvo15/HTML-CSS-Projects/tree/main/Website%20Assignment" target="_blank">Website Assignment</a></p>
+                <br>
+            </p>
+        </footer>
+
+    </body>
+</html>
