@@ -51,13 +51,7 @@
 
           <!--start of about section-->
 
-          <div class="row">
-              <div class="w-auto col" style="background-color: #eee;">Width Auto</div>
-              <div class="w-auto col" style="background-color: #bbb;">Width Auto</div>
-
-
-
-          </div>
+          
 
             <!--<div id="about" class="container">
                 <div class="row">
@@ -140,6 +134,19 @@
 
 <!--end of showtimes section-->
 
+<!--movie deals-->
+
+<div class="jumbotron jumbotron-fluid bg-info text-center">
+  <div class="container">
+    <h1 class="display-4 text-light my-5">MOVIE DEALS</h1>
+    <p class="lead text-light text-center">See our monthly deals</p>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#register" class="btn btn-outline-primary" data-toggle="model" data-target="#register">See our monthly deals</button>
+  </div>
+</div>
+
+
+<!--movie deals end-->
+
  <!--start of deals section-->
             
             <div id="deals" class="text-center">
@@ -148,11 +155,68 @@
                         <h1 class="text-primary my-5">Sign up for movie rewards</h1>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="example words">
+                      Sign up
+                    </button>
                 </form>
             </div>
           </div>
+  <!--movie deals end-->
+  
+  <!--form modal-->
+          <div class="modal" id="register" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Register for movie deals</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="modalform">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                      <input type="firstname" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                    </div>
 
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                      <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <!--new bootstrap code for signing up for monthly deals-->
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Would you like to sign up for monthly email deals
+                      </label>
+                    </div>
+                    
+                  </form>
+
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--form modal end-->
+
+<!--Alerts-->
+
+<!--<div class="alert alert-primary" role="alert">
+  <button type="button" class="btn btn-primary" id="submit">Thanks for submitting!</button>
+  
+</div>-->
+
+<!--Alerts end-->
+
+<!--footer-->
           <div class="container my-5">
             <ul class="nav nav-inline">
                 <li class="nav-item">
@@ -169,12 +233,20 @@
 
     </div>
 
-    <!--end of deals section-->
+    <!--footer-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+          const popover = new bootstrap.Popover('.popover-dismiss', {
+          trigger: 'focus'
+          })
+    </script>
+  
+  
   </body>
 </html>
