@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset="utf8">
+		<title>One Page Website Assignment</title>
+		<link rel="stylesheet" type="text/css" href="test.css">
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+
+<section>
+    <!--lightbox images-->
+<div class="row">
+    <div class="column">
+        <img src="./picturesonepage/slide1.jpg" onclick="openmodal();currentslide(1)" class="hovershadow">
+    </div>				
+    <div class="column">
+        <img src="./picturesonepage/slide2.jpg" onclick="openmodal();currentslide(2)" class="hovershadow">
+    </div>				
+    <div class="column">
+        <img src="./picturesonepage/slide3.jpg" onclick="openmodal();currentslide(3)" class="hovershadow">
+    </div>
+    <div class="column">
+        <img src="./picturesonepage/slide4.jpg" onclick="openmodal();currentslide(4)" class="hovershadow">
+    </div>
+</div>
+
+<!--the lightbox -->
+
+<div id="mymodal" class="modal">
+    <span class="close" onclick="closemodal()">&times;</span>
+    <div class="modalpics">
+
+        <div class="myslides">
+            <div class="numbertext">1/4</div>
+            <img src="./picturesonepage/slide1.jpg" style="width:100%">
+        </div>
+        <div class="myslides">
+            <div class="numbertext">2/4</div>
+            <img src="./picturesonepage/slide2.jpg" style="width:100%">
+        </div>
+        <div class="myslides">
+            <div class="numbertext">3/4</div>
+            <img src="./picturesonepage/slide3.jpg" style="width:100%">
+        </div>
+        <div class="myslides">
+            <div class="numbertext">4/4</div>
+            <img src="./picturesonepage/slide4.jpg" style="width:100%">
+        </div>
+
+        <!--next/previous-->
+            <a class="prev" onclick="plusslide(-1)">&#10094;</a>
+            <a class="next" onclick="plusslide(1)">&#10095;</a>
+
+
+        <!--captions-->
+
+        <div class="captioncontainer">
+            <p id="caption"></p>
+        </div>
+
+        <!--image controls-->
+        <div class="column">
+            <img class="lightpic" src="./picturesonepage/slide1.jpg" onclick="currentslide(1)" alt="description">
+        </div>
+
+        <div class="column">
+            <img class="lightpic" src="./picturesonepage/slide2.jpg" onclick="currentslide(2)" alt="description">
+        </div>
+
+        <div class="column">
+            <img class="lightpic" src="./picturesonepage/slide3.jpg" onclick="currentslide(3)" alt="description">
+        </div>
+
+        <div class="column">
+            <img class="lightpic" src="./picturesonepage/slide4.jpg" onclick="currentslide(4)" alt="description">
+        </div>
+    </div>
+</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Final HTML CSS Assigment</title>
+        <link rel="stylesheet" type="text/css" href="Final.css">
+    </head>
+
+    <body class="Background">
+
+        <!--Navbar-->
+        
+        
+            <div class="navbar">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Github">Github</a>
+                <a href="#Slideshow">Slideshow</a>
+                <a onclick="openform()" ondblclick="closeform()" class="contact">Contact</a>
+            </div>
+       
+            <br>
+            <br>      
+        <!--Top menu area-->       
+
+               
+            
+        <div id="Home">
+            <!--backgroud video-->           
+                <video autoplay muted loop id="oceanvideo">
+                    <source src="picforfinal/ocean.mp4" type="video/mp4">
+                </video>
+        </div>
+                <!--END backgroud video-->  
+
+            <div class="overlay">
+                <h1 class="white-text">Kelsey's Portfolio</h1>
+                    <p class="center">
+                        <p>This is my final website project that I will keep updating over the duration of this course. 
+                             
+                        </p>
+                        <p><br> It will keep updating to show the new concepts that I have learned.</p>
+                        <p style="font-size: 20px;"><br>So far I have learned</p>
+                        <p style="font-size: 20px;"><br>HTML</p>
+                        <p style="font-size: 20px;"><br>CSS</p>
+                        <p style="font-size: 20px;"><br>Javascript</p>
+                    </p>
+            </div>                  
+        </div>
+
+<!--slideshow--> 
+        <div id="Slideshow">
+            <div id="slidebackground">
+                <div id="slideshowcontain">
+<!--pictures for slideshow--> 
+                    <div class="slide fade">
+                        <img class="slideimg" src="picforfinal/me.jpg" alt="pics">
+                        <div class="text"><p>Hey it's me, I can help you on your projects!</p></div>
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slideimg" src="picforfinal/ocean.jpg" alt="pics">
+                        <div class="text"><p>I have learned Javascript</p></div>
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slideimg" src="picforfinal/space.jpg" alt="pics">
+                        <div class="text"><p>I have learned HMTL</p></div>
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slideimg" src="picforfinal/sunrise.jpg" alt="pics">
+                        <div class="text"><p>I have learned CSS</p></div>
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slideimg" src="picforfinal/flower.jpg" alt="pics">
+                        <div class="text"><p>I am still learning other things in my program</p></div>
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slideimg" src="picforfinal/mountain.jpg" alt="pics">
+                        <div class="text"><p>The end!</p></div>
+                    </div>
+                <!--prev and next--> 
+                    <a class="prev" onclick="plusslide(-1)">&#10094;</a>
+                    <a class="next" onclick="plusslide(1)">&#10095;</a>
+                </div>
+                <!--prev and next end--> 
+
+                <!--dots on the slideshow--> 
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentslide(1)"></span>
+                    <span class="dot" onclick="currentslide(2)"></span>
+                    <span class="dot" onclick="currentslide(3)"></span> 
+                    <span class="dot" onclick="currentslide(4)"></span> 
+                    <span class="dot" onclick="currentslide(5)"></span> 
+                    <span class="dot" onclick="currentslide(6)"></span> 
+                </div>
+                <!--dots on the slideshow end--> 
+            </div>
+        </div>
+
+<!--end slideshow--> 
+
+<!--Main columned section of site-->
+
+        <div id="About" class="container">
+            <div class="row">
+                <div class="column1">
+                    <h1><a href="https://www.learncodinganywhere.com" target="blank">About</a></h1>
+                    <br>
+                    <br>
+                    <br>
+                        <p>I am a software developer student at the tech academy and this is a webpage! 
+                            It has been fun learning how to do all the cool stylings on the website</p>
+                </div>
+
+                <div class="column2">
+                    <img src="picforfinal/space.jpg">
+                </div>
+            </div>
+            
+        </div>
+
+        <!--github section-->
+
+        <div id="Github">
+            <div class="row">
+                
+                <div id="Contact" class="column2">
+                    <img class="backimg" src="picforfinal/sunrise.jpg">
+                </div>
+
+                <div class="column1">
+                    <h1><a href="https://github.com/ksalvo15/HTML-CSS-Projects" target="blank">Kelsey's Github</a></h1>                    
+                    <br>                    
+                        <p class="text-justify">I am a software developer student and this is a webpage!</p>
+                            
+                        <p>It has been fun learning how to do all the cool stylings on the website</p>
+                </div>
+            </div>
+        </div>
+
+<!--contact section-->
+
+       <div id="Contact">
+                <button onclick="openform()" class="popup">Contact</button>
+                <div class="formpop" id="myform">
+                    <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="formcontain"> 
+                        <h1>Contact</h1> 
+                            <label for="name"><b>Name</b></label>
+                            <input type="text" placeholder="Type your name here" name="name" required>
+                            <label for="phone"><b>Phone</b></label>
+                            <input type="text" placeholder="Type your phone number here" name="phone">
+                            <label for="email"><b>Email</b></label>		
+                            <input type="text" placeholder="Type your email address here" name="email" required>
+                            <label for="message"><b>Message</b></label>
+                            <input type="text" placeholder="Type your message here" name="message"> 
+                        <button type="submit" class="btn">SUBMIT</button>
+                        <button type="button" class="btn cancel" onclick="closeform()">CLOSE</button>                      
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<!--footer section-->
+
+        <footer>
+            <p>
+                <p class="center">&copy Kelsey's Page, <a href="https://github.com/ksalvo15/HTML-CSS-Projects/tree/main/Website%20Assignment" target="_blank">Website Assignment</a></p>
+                <br>
+            </p>
+        </footer>
+        <script src="Final.js"></script>
+    </body>
+</html>
